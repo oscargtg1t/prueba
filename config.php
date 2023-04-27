@@ -4,7 +4,7 @@
 //agricultor   ---->    beneficio
 //conexion para tabla cargamento del beneficio
 $db = [
-    'host' => '127.0.0.1:3306',
+    'host' => 'host:port',
     'username' => 'root',
     'password' => 'root',
     'db' => 'db_beneficio' //Cambiar al nombre de tu base de datos
@@ -26,7 +26,7 @@ $db3 = [
     'host' => 'host:port',
     'username' => '',
     'password' => '',
-    'db' => '' //Cambiar al nombre de tu base de datos
+    'db' => 'db_agricultor' //Cambiar al nombre de tu base de datos
 ];
 
 
@@ -36,7 +36,7 @@ $db4 = [
     'host' => 'host:port',
     'username' => '',
     'password' => '',
-    'db' => '' //cambiar al nombre de tu base de datos
+    'db' => 'db_pesocabal' //cambiar al nombre de tu base de datos
 ];
 
 
@@ -46,6 +46,6 @@ $db5 = [
     'host' => 'host:port',
     'username' => '',
     'password' => '',
-    'db' => '' //cambiar al nombre de tu base de datos
+    'db' => 'db_beneficio' //cambiar al nombre de tu base de datos
 ];
 ?>
